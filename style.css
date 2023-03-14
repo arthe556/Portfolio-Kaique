@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* MENU */
+.menu{
+    list-style: none;
+    background-color: rgb(20, 20, 20);
+    border-bottom: solid 3px #3fd97f;
+    flex-wrap: wrap;
+}
+
+.menu li{
+    display: inline;
+}
+
+.menu li a{
+    color: white;
+    padding: 25px;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.menu li a:hover{
+    background-color: #3fd97f;
+
+}
+
+/* Corpo */
+
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: xx-large;
+    border-bottom: solid 3px #3fd97f;
+}
+
+.paragrafo{
+    padding-right: 15%;
+}
+
+.imagem img{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+
+
+/* Botão Corpo*/
+
+button{
+    width: 150px;
+    height: 40px;
+    padding: 3px;
+    background-color: rgb(20, 20, 20);
+    font-size: large;
+    border-radius: 5%;
+}
+
+.linkedin{
+    border-color: #0e76a8;
+}
+.linkedin:hover{
+    background-color:rgb(35, 35, 35) ;
+}
+
+.github{
+    border-color: #991d5d;
+}
+.github:hover{
+    background-color:rgb(35, 35, 35) ;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Sobre Mim */
+
+
+.sobre{
+    background-color:rgb(35, 35, 35) ;
+    border-bottom: solid 3px #3fd97f;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.kaique img{
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+}
+
+.texto{
+    font-size: large;
+    padding-left: 10%;
+}
+/* Skills */
+.skills{
+    background-color:rgb(35, 35, 35) ;
+    border-bottom: solid 3px #3fd97f;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.stexto{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.skilli p{
+    word-wrap: break-word;
+}
+
+.skilli{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skilli div{
+    width: 400px;
+    height: 150px;
+}
+
+/* Projetos */
+
+.projeto{
+    background-color:rgb(35, 35, 35) ;
+    border-bottom: solid 3px #3fd97f;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.projetoi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color:rgb(35, 35, 35) ;
+    border-bottom: solid 3px #3fd97f;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer ul{
+    display: block;
+}
+footer ul a{
+    padding: 1%;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
